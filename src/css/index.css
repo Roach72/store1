@@ -473,7 +473,7 @@ h3.custom-heading {
     border-top: 2px solid #292929;
 }
 
-input[type=email] {
+input[type=email] ,input[type="number"] {
     direction: rtl;
     text-align: right;
 }
@@ -671,6 +671,131 @@ input[type=email] {
 
 
 
+
+/*--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+-------------------------------checkout.html---------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------- */
+
+
+ .custom-media img{
+    width: 80px;
+    height: 80px;
+}
+
+.custom-table th, .custom-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    font-size: 120%;
+}
+
+#form-checkout , #form-checkout .custom-table {
+    width: 100%;
+}
+
+.custom-table th {
+    color: #c2c2c2;
+    font-weight: normal;
+}
+
+.custom-table .custom-media img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ebebeb;
+    margin-left: 10px;
+}
+
+.custom-table .custom-media h4 {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.custom-table .quantity1 {
+    width: 56px;
+    height: 34px !important;
+    padding: 0px 8px;
+    text-align: center;
+}
+
+.custom-btn-danger {
+    color: #ff5a5f;
+    border-color: #ff5a5f !important;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.custom-btn-danger:hover,
+.custom-btn-danger:active,
+.custom-btn-danger:focus,
+.custom-btn-danger:active:focus,
+.custom-btn-danger:active:hover{
+    color: #c2101e;
+    border-color: #c2101e !important;
+    background-color: transparent;
+}
+
+.custom-table .custom-media {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.custom-table th:first-child {
+    padding-right: 20px;
+}
+
+.custom-table tfoot td {
+    border-bottom: none;
+    font-size: 150%;
+}
+
+.custom-table .total-price * {
+    color: #000;
+}
+
+.custom-table .total-price .custom-text-muted .custom-text-muted {
+    color: #a9a9a9;
+}
+.to1{
+    color: #000;
+    list-style: none;
+
+}
+
+
+/*--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+-------------------------------payment.html---------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------- */
+
+.custom-input-details {
+    border-width: 2px;
+    border-radius: 3px;
+    height: 46px !important;
+    padding: 0px 16px;
+    font-size: 18px;
+}
+
+.custom-form-control:focus {
+    border-color: #b86d07;
+    box-shadow: #b86d07;
+}
+
+#credit-card-info {
+    margin-right: 3%;
+
+}
 
 /*-----------------------------------------------------------------------------------
 ------------------------------------media--------------------------------------------
