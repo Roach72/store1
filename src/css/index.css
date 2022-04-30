@@ -369,17 +369,17 @@ h3.custom-heading {
     margin-bottom: 8px;
 }
 
-.custom-primary {
+.custom-btn-primary{
     color: #f8ad47 !important;
     border-color: #f8ad47 !important;
     background-color: transparent !important;
 }
 
-.custom-primary:hover,
-.custom-primary:active,
-.custom-primary:focus,
-.custom-primary:active:focus,
-.custom-primary:active:hover {
+.custom-btn-primary:hover,
+.custom-btn-primary:active,
+.custom-btn-primary:focus,
+.custom-btn-primary:active:focus,
+.custom-btn-primary:active:hover {
     color: #b86d07 !important;
     border-color: #b86d07 !important;
 }
@@ -797,6 +797,135 @@ input[type=email] ,input[type="number"] {
 
 }
 
+
+/*--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+-------------------------------search.html---------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
+
+#form-advanced-search {
+    border: 1px solid #ebebeb;
+    padding-bottom: 20px;
+    display: table;
+}
+
+#form-advanced-search .custom-panel {
+    border: none;
+    padding: 5px;
+}
+
+.custom-panel .card-header  {
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding: 7px 10px 13px;
+}
+
+.custom-list-groug>.list-group-item {
+    border: none;
+    padding: 0 10px 14px 0;
+}
+
+.custom-list-group .list-group-item{
+    border: none;
+}
+
+.custom-list-groug>.list-group-item:last-child {
+    padding: 0 10px 0px 0;
+}
+
+#form-advanced-search label{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ui-slider {
+    margin: 25px 0 15px;
+    height: 2px !important;
+}
+
+.ui-slider .ui-slider-handle {
+    background-color: #f8ad47 !important;
+    border: none !important;
+    border-radius: 50%;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+.ui-slider .ui-slider-range {
+    border: 1px solid #f8ad47 !important;
+    top: -1px !important;
+}
+
+.custom-pagination li a {
+    border: 1px solid #ebebeb;
+    width: 32px !important;
+    height: 32px !important;
+    line-height: 32px !important;
+    margin-right: 3px !important;
+    margin-left: 3px !important;
+    color: #c2c2c2 !important;
+    transition: all 0.3 ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.custom-pagination li.active a {
+    background-color: #f8ad47;
+    color: #fff !important;
+    border-color: #f8ad47;
+}
+
+.custom-pagination li a:active,
+.custom-pagination li a:focus,
+.custom-pagination li a:hover {
+    color: #ab7731;
+    border-color: #ab7731;
+}
+
+/*--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+-------------------------------contact.html---------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
+#map{
+    padding: 0;
+}
+
+#contact-options h4{
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    margin-bottom: 25px;
+}
+
+#contact-info .fa-lg {
+    color: #f3af41;
+    font-size: 18px;
+    margin: 10px 10px 7px 10px;
+    width: 25px;
+    text-align: center;
+}
+
+#contact-options textarea {
+    height: 128px !important;
+}
+
+#contact-options {
+    margin-bottom: 25px;
+}
+
 /*-----------------------------------------------------------------------------------
 ------------------------------------media--------------------------------------------
 ------------------------------------------------------------------------------------*/
@@ -917,7 +1046,11 @@ input[type=email] ,input[type="number"] {
         margin-top: 10px;
     }
 
+/*--contact--*/
 
+    #form-subscription {
+        margin-bottom: 40px;
+    }
 
 }
 
