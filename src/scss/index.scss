@@ -1,0 +1,26 @@
+@import './vairabols';
+
+.custom-form-control, .custom-btn {
+    border: 1px solid #555555 !important;
+    box-shadow: none !important;
+    border-radius: 5px!important ;
+    font-size: 14px !important;
+    margin: 1px;
+    background-color: #fff !important;
+    padding: 5px 16px 5px 16px;
+    
+
+}
+
+.custom-btn:hover {
+    background-color: #d4d4d4;
+    border: 1px solid #8c8c8c;
+    color: $brand-hover;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-primary{
+    color: $brand-primary !important;
+    border-color: $brand-primary!important;
+    background-color: transparent !important;
+}

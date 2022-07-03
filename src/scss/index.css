@@ -1,0 +1,25 @@
+.custom-form-control, .custom-btn {
+  border: 1px solid #555555 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  margin: 1px;
+  background-color: #fff !important;
+  padding: 5px 16px 5px 16px;
+}
+
+.custom-btn:hover {
+  background-color: #d4d4d4;
+  border: 1px solid #8c8c8c;
+  color: #b86d07;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.custom-btn-primary {
+  color: #f8ad47 !important;
+  border-color: #f8ad47 !important;
+  background-color: transparent !important;
+}
+/*# sourceMappingURL=index.css.map */
